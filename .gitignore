@@ -1,0 +1,7 @@
+*.tlog
+Release/
+*.filters
+*.user
+*.opensdf
+*.suo
+win_pro.sdf
