@@ -202,6 +202,58 @@
 				>
 			</File>
 		</Filter>
+		<Filter
+			Name="memory"
+			>
+			<File
+				RelativePath="..\src\memory\new_test.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\src\memory\new_test.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="propupdate"
+			>
+			<File
+				RelativePath="..\src\propupdate\PropUpdate.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\src\propupdate\PropUpdate.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="stl"
+			>
+			<File
+				RelativePath="..\src\stl\hash_map.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\src\stl\hash_map.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="memmove"
+			>
+			<File
+				RelativePath="..\src\memmove\memmove_test.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\src\memmove\memmove_test.h"
+				>
+			</File>
+		</Filter>
+		<File
+			RelativePath="..\updatelist.txt"
+			>
+		</File>
 	</Files>
 	<Globals>
 	</Globals>
