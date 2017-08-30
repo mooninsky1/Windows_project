@@ -5,3 +5,5 @@ Release/
 *.opensdf
 *.suo
 win_pro.sdf
+Debug/
+*.ncb

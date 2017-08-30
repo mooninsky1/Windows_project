@@ -7,7 +7,7 @@
 
 int main(int argc, char* argv[])
 {
-	Test();
+	CBindTest().Test();
 	
 	system("pause");
 	return 0;
