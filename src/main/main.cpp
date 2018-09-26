@@ -7,7 +7,8 @@
 
 int main(int argc, char* argv[])
 {
-	CBindTest().Test();
+	//CBindTest().Test();
+	CSqlServerTest().Test();
 	
 	system("pause");
 	return 0;

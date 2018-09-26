@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="&quot;D:\boost_1_44_0\output\include\boost-1_44\boost&quot;;&quot;D:\boost_1_44_0\output\include\boost-1_44&quot;"
+				AdditionalIncludeDirectories="E:\BaiduNetdiskDownload\boost_1_65_0;E:\BaiduNetdiskDownload\boost_1_65_0\boost;&quot;D:\boost_1_44_0\output\include\boost-1_44\boost&quot;;&quot;D:\boost_1_44_0\output\include\boost-1_44&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -247,6 +247,18 @@
 			</File>
 			<File
 				RelativePath="..\src\memmove\memmove_test.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="sqlserver"
+			>
+			<File
+				RelativePath="..\src\sqlserver\sqlserver.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\src\sqlserver\sqlserver.h"
 				>
 			</File>
 		</Filter>

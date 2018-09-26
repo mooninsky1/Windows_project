@@ -26,5 +26,6 @@
 #include "../boost/bind.h"
 //#include "../propupdate/PropUpdate.h"
 //#include "../algorithm/QuickSort.h"
+#include "../sqlserver/sqlserver.h"
 using namespace std;
 
