@@ -254,6 +254,14 @@
 			Name="sqlserver"
 			>
 			<File
+				RelativePath=".\Debug\msado15.tlh"
+				>
+			</File>
+			<File
+				RelativePath=".\Debug\msado15.tli"
+				>
+			</File>
+			<File
 				RelativePath="..\src\sqlserver\sqlserver.cpp"
 				>
 			</File>
