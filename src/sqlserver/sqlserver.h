@@ -15,6 +15,7 @@ protected:
 	bool Connect();
 	void ExecuteSP();
 	void ExecuteSP1();
+	void ExecuteSP2();
 	void ExecuteRecordsetSQL();
 	void ExecuteCommandSQL();
 private:
