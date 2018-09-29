@@ -15,11 +15,12 @@ protected:
 	bool Connect();
 	void ExecuteSP();
 	void ExecuteSP1();
-	void ExecuteRecordsetCMD();
-	void ExecuteCommandCMD();
+	void ExecuteRecordsetSQL();
+	void ExecuteCommandSQL();
 private:
 	//清除存储过程绑定的参数
 	bool DestroyParams();
+	bool BindParams(LPCSTR pszName, DataTypeEnum enumDataType,  ParameterDirectionEnum enumDirType,int nSize, char * pszData);
 private:
 	////////////////////////数据库对像有关//////////////////////////////
 	// COM _Command 命令对象
