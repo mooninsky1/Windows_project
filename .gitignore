@@ -7,3 +7,6 @@ Release/
 win_pro.sdf
 Debug/
 *.ncb
+Win_pro_2012/Win_pro_2012.sdf
+Win_pro_2012/Win_pro_2012/Win_pro_2012.vcxproj
+*.sdf
