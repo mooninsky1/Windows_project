@@ -25,11 +25,14 @@ void CLuaTest::CloseLua()
 void CLuaTest::Test()
 {
 	LuaInit();
-	//
+	//×¢²áC++º¯Êý
+	C_Push_Fun();
+	
+	//¼ÓÔØlua½Å±¾
 	OpenLuaFile();
 	//
 	//C_Push_value();
-	//C_Push_Fun();
+
 	C_Call_Lua();
 	//
 	CloseLua();
@@ -38,8 +41,9 @@ void CLuaTest::Test()
 void CLuaTest::OpenLuaFile()
 {
 	char* szLuaFile="sky.lua";
-	if( luaL_loadfile(L,szLuaFile) ||
-		lua_pcall(L,0,0,0) )
+	if( luaL_loadfile(L,szLuaFile) 
+		|| lua_pcall(L,0,0,0) 
+		)
 	{
 		const char * error = lua_tostring(L, -1) ;
 		std::cout << string(error).c_str() << endl;

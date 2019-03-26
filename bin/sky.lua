@@ -3,11 +3,11 @@
 print("c++ nValue="..nValue)
 --]]
 
---[[
-调用c++函数
+---[[
+--调用c++函数
 local sum = AddSum(5,7)
 print("sum is:"..sum)
---]]
+---]]
 
 --[[
 lua define function
