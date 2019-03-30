@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 {
 	//CBindTest().Test();
 	//CSqlServerTest().Test();
-	Test();
+	CLuaTest::Test();
 	
 	system("pause");
 	return 0;

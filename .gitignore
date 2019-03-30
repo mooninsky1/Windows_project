@@ -7,3 +7,12 @@ Release/
 win_pro.sdf
 Debug/
 *.ncb
+Win_pro_2012/Win_pro_2012.sdf
+Win_pro_2012/Win_pro_2012/Win_pro_2012.vcxproj
+*.sdf
+*.exe
+*.ilk
+*.pdb
+bin/Win_pro_2008.exe
+*.ilk
+*.exe

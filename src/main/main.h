@@ -26,7 +26,9 @@
 //#include "../boost/bind.h"
 //#include "../propupdate/PropUpdate.h"
 //#include "../algorithm/QuickSort.h"
-#include "../algorithm/list.h"
+//#include "../algorithm/list.h"
 //#include "../sqlserver/sqlserver.h"
+//#include "../sqlserver/sqlserver.h"
+#include "../lua/lua_test.h"
 using namespace std;
 

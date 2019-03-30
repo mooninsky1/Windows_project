@@ -1,4 +1,6 @@
 #include "lua_test.h"
+#include <iostream>
+using namespace std;
 
 //sky 静态成员初始化，否则不能访问
 lua_State* CLuaTest::L=NULL;
@@ -23,11 +25,14 @@ void CLuaTest::CloseLua()
 void CLuaTest::Test()
 {
 	LuaInit();
-	//
+	//注册C++函数
+	C_Push_Fun();
+	
+	//加载lua脚本
 	OpenLuaFile();
 	//
 	//C_Push_value();
-	//C_Push_Fun();
+
 	C_Call_Lua();
 	//
 	CloseLua();
@@ -36,11 +41,12 @@ void CLuaTest::Test()
 void CLuaTest::OpenLuaFile()
 {
 	char* szLuaFile="sky.lua";
-	if( luaL_loadfile(L,szLuaFile) ||
-		lua_pcall(L,0,0,0) )
+	if( luaL_loadfile(L,szLuaFile) 
+		|| lua_pcall(L,0,0,0) 
+		)
 	{
 		const char * error = lua_tostring(L, -1) ;
-		cout << string(error) << endl;
+		std::cout << string(error).c_str() << endl;
 	}
 }
 //c push value to lua
