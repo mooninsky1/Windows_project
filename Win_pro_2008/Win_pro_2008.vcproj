@@ -198,6 +198,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\algorithm\list.h"
+				>
+			</File>
+			<File
 				RelativePath="..\src\algorithm\QuickSort.h"
 				>
 			</File>

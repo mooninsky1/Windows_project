@@ -23,9 +23,10 @@
 // #include "../mysql/MySqlTest.h"
 //#include  "../stl/hash_map.h"
 //#include "../memory/new_test.h"
-#include "../boost/bind.h"
+//#include "../boost/bind.h"
 //#include "../propupdate/PropUpdate.h"
 //#include "../algorithm/QuickSort.h"
-#include "../sqlserver/sqlserver.h"
+#include "../algorithm/list.h"
+//#include "../sqlserver/sqlserver.h"
 using namespace std;
 
