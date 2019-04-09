@@ -100,6 +100,7 @@
   <ItemGroup>
     <None Include="..\bin\sky.lua" />
     <None Include="..\bin\sky.py" />
+    <None Include="..\bin\sky1.lua" />
     <None Include="..\config\centersvr.conf" />
     <None Include="Debug\msado15.tlh" />
     <None Include="Debug\msado15.tli" />

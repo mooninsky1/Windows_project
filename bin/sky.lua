@@ -36,3 +36,13 @@ function C_Call_Lua( a,b )
 	print("in lua sum is:"..sum)
 	return sum
 end
+
+--[[
+this functions call by c/c++
+--]]
+function C_Call_Lua1( a,b )
+	-- body
+	local sum = a+b
+	print("in sky.lua sum is:"..sum)
+	return sum
+end

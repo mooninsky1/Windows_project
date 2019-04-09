@@ -48,6 +48,16 @@ void CLuaTest::OpenLuaFile()
 		const char * error = lua_tostring(L, -1) ;
 		std::cout << string(error).c_str() << endl;
 	}
+	//lhf 2019/04/09  测试同时加载两个脚本，有相同函数调用时会发生什么情况
+	char* szLuaFile1="sky1.lua";
+	if( luaL_loadfile(L,szLuaFile1) 
+		|| lua_pcall(L,0,0,0) 
+		)
+	{
+		const char * error = lua_tostring(L, -1) ;
+		std::cout << string(error).c_str() << endl;
+	}
+
 }
 //c push value to lua
 void CLuaTest::C_Push_value()
@@ -88,7 +98,9 @@ int CLuaTest::AddSum(lua_State* L)
 void CLuaTest::C_Call_Lua()
 {
 	//调用lua中函数
-	lua_getglobal(L,"C_Call_Lua");
+	lua_getglobal(L,"C_Call_Lua1");
+	//重复注册的函数第二个有效，第一个被覆盖。
+//	lua_getglobal(L,"C_Call_Lua");  
 	//传递参数
 	lua_pushinteger(L,10);
 	lua_pushinteger(L,20);
