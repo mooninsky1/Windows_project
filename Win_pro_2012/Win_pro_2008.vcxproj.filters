@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\main\main.cpp" />
+    <ClCompile Include="..\src\lua\lua_test.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\main\main.h" />
+    <ClInclude Include="..\src\lua\lua_test.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Debug\msado15.tlh" />
+    <None Include="Debug\msado15.tli" />
+    <None Include="..\bin\sky.lua">
+      <Filter>cfg</Filter>
+    </None>
+    <None Include="..\bin\sky.py">
+      <Filter>cfg</Filter>
+    </None>
+    <None Include="..\config\centersvr.conf">
+      <Filter>cfg</Filter>
+    </None>
+    <None Include="..\bin\sky1.lua">
+      <Filter>cfg</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\updatelist.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="lua">
+      <UniqueIdentifier>{0141edac-564c-494a-b0a5-51966f3a0d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cfg">
+      <UniqueIdentifier>{8b036161-72f9-4ae8-8055-7c30976faee9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,6 +1,5 @@
 *.tlog
 Release/
-*.filters
 *.user
 *.opensdf
 *.suo
