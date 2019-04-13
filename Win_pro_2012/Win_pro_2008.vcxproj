@@ -53,7 +53,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>../include\lua-5.3.0\src;E:\BaiduNetdiskDownload\boost_1_65_0;E:\BaiduNetdiskDownload\boost_1_65_0\boost;D:\boost_1_44_0\output\include\boost-1_44\boost;D:\boost_1_44_0\output\include\boost-1_44;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../include/libevent-2.0.21-stable/include;../include\lua-5.3.0\src;E:\BaiduNetdiskDownload\boost_1_65_0;E:\BaiduNetdiskDownload\boost_1_65_0\boost;D:\boost_1_44_0\output\include\boost-1_44\boost;D:\boost_1_44_0\output\include\boost-1_44;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -90,10 +90,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\libevent\libeventTest.cpp" />
     <ClCompile Include="..\src\lua\lua_test.cpp" />
     <ClCompile Include="..\src\main\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\libevent\libeventTest.h" />
     <ClInclude Include="..\src\lua\lua_test.h" />
     <ClInclude Include="..\src\main\main.h" />
   </ItemGroup>

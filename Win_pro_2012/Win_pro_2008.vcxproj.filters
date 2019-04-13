@@ -1,15 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="..\src\main\main.cpp" />
     <ClCompile Include="..\src\lua\lua_test.cpp">
       <Filter>lua</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\libevent\libeventTest.cpp">
+      <Filter>libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\main\main.h" />
     <ClInclude Include="..\src\lua\lua_test.h">
       <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libevent\libeventTest.h">
+      <Filter>libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\main\main.h">
+      <Filter>main</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -37,6 +47,12 @@
     </Filter>
     <Filter Include="cfg">
       <UniqueIdentifier>{8b036161-72f9-4ae8-8055-7c30976faee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libevent">
+      <UniqueIdentifier>{23862376-81f9-4d28-b420-8b5d203a895c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{c962f217-f4e3-49e1-9b58-59db3158f7af}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

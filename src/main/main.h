@@ -30,5 +30,6 @@
 //#include "../sqlserver/sqlserver.h"
 //#include "../sqlserver/sqlserver.h"
 #include "../lua/lua_test.h"
+#include "../libevent/libeventTest.h"
 using namespace std;
 
