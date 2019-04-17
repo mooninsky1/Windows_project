@@ -10,10 +10,3 @@ private:
 
 };
 
-CLibeventTest::CLibeventTest()
-{
-}
-
-CLibeventTest::~CLibeventTest()
-{
-}
