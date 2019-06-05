@@ -31,5 +31,6 @@
 //#include "../sqlserver/sqlserver.h"
 #include "../lua/lua_test.h"
 #include "../libevent/libeventTest.h"
+#include "../c++/copy_struct.h"
 using namespace std;
 

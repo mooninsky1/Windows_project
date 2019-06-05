@@ -10,6 +10,12 @@
     <ClCompile Include="..\src\main\main.cpp">
       <Filter>main</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\memmove\memmove_test.cpp">
+      <Filter>memmove</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\memory\new_test.cpp">
+      <Filter>memory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\lua\lua_test.h">
@@ -20,6 +26,24 @@
     </ClInclude>
     <ClInclude Include="..\src\main\main.h">
       <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\memmove\memmove_test.h">
+      <Filter>memmove</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\memory\new_test.h">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\algorithm\0_1_bag.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\algorithm\list.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\algorithm\QuickSort.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\c++\copy_struct.h">
+      <Filter>c++</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -53,6 +77,18 @@
     </Filter>
     <Filter Include="main">
       <UniqueIdentifier>{c962f217-f4e3-49e1-9b58-59db3158f7af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memmove">
+      <UniqueIdentifier>{d8edb1ff-9227-4551-a0e0-1337a7573335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{ce585a1d-f5eb-4d12-a053-6baa5eeafc1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm">
+      <UniqueIdentifier>{0b9d0eb5-2414-4bf5-b51c-aa954a8d7a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="c++">
+      <UniqueIdentifier>{a3f0f1ae-7f29-4d2a-af05-f0bdfc6d9a87}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -9,8 +9,9 @@ int main(int argc, char* argv[])
 {
 	//CBindTest().Test();
 	//CSqlServerTest().Test();
-	CLuaTest::Test();
+	//CLuaTest::Test();
 	//CLibeventTest::Test();
+	CTestStruct::Test();
 	
 	system("pause");
 	return 0;

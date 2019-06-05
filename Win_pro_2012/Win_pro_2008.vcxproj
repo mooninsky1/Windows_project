@@ -93,11 +93,19 @@
     <ClCompile Include="..\src\libevent\libeventTest.cpp" />
     <ClCompile Include="..\src\lua\lua_test.cpp" />
     <ClCompile Include="..\src\main\main.cpp" />
+    <ClCompile Include="..\src\memmove\memmove_test.cpp" />
+    <ClCompile Include="..\src\memory\new_test.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\algorithm\0_1_bag.h" />
+    <ClInclude Include="..\src\algorithm\list.h" />
+    <ClInclude Include="..\src\algorithm\QuickSort.h" />
+    <ClInclude Include="..\src\c++\copy_struct.h" />
     <ClInclude Include="..\src\libevent\libeventTest.h" />
     <ClInclude Include="..\src\lua\lua_test.h" />
     <ClInclude Include="..\src\main\main.h" />
+    <ClInclude Include="..\src\memmove\memmove_test.h" />
+    <ClInclude Include="..\src\memory\new_test.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\bin\sky.lua" />
